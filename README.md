@@ -33,3 +33,5 @@ Open `http://localhost:4173/`. The API widget needs a network connection to load
 - Repository: https://github.com/LornaDeng/cse134b-hw5
 - Portfolio: https://lornadeng.github.io/cse134b-hw5/
 - Component: https://lornadeng.github.io/cse134b-hw5/projects.html
+
+These same URLs are listed in `links.txt` in the order required for the Gradescope submission.
