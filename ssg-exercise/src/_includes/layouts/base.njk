@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | Wenqing Deng</title>
+  <link rel="stylesheet" href="/assets/main.css">
+  <script src="/assets/theme.js" defer></script>
+</head>
+<body>
+  <header>
+    <p><a href="/index.html"><span translate="no">Wenqing Deng</span></a></p>
+    <nav aria-label="Main navigation"><ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/about.html">About</a></li>
+    </ul></nav>
+    <div class="theme-controls js-only"><button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Switch to dark theme</button></div>
+  </header>
+  <main id="main-content">
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+</body>
+</html>
